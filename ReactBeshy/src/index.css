@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@300;400;700&family=Satisfy&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main-container{
+  
+  height: 200vh;
+  color: azure;
+  background: rgb(20,21,31);
+background: linear-gradient(180deg, rgba(20,21,31,1) 0%, rgba(20,21,31,1) 54%, rgba(41,42,55,1) 94%);
+  
+}
+
+.main-container .main-page{
+  height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container .main-page .game-canvas{
+display: grid;
+align-items: center;
+justify-content: center;
+}
+
+.Beshy-container{
+  height: 100vh;
+  margin-top: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
