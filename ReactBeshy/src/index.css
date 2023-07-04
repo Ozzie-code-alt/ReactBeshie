@@ -22,6 +22,37 @@ background: linear-gradient(180deg, rgba(20,21,31,1) 0%, rgba(20,21,31,1) 54%, r
   justify-content: center;
 }
 
+.main-container .main-page .title-container {
+position: absolute;
+margin-top: 20rem;
+}
+
+.main-container .main-page .title-container p{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 150px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 .main-container .main-page .game-canvas{
 display: grid;
 align-items: center;
@@ -34,6 +65,35 @@ justify-content: center;
   display: grid;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.Beshy-container .input-container{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.Beshy-container .input-container button{
+  border-radius: 15px;
+  padding: 8px;
+}
+
+
+.Beshy-container .show-text-container{
+height: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 15px;
+}
+.Beshy-container .show-text-container .text{
+  font-size: 3rem;
+  border-bottom: 5px solid ;
+  border-color: rgb(15, 154, 154);
+  border-radius: 15px;
 }
 
 
