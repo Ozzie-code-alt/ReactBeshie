@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
+  /* outline: red 5px dotted; */
 }
 
 .main-container{
@@ -78,6 +79,13 @@ justify-content: center;
 .Beshy-container .input-container button{
   border-radius: 15px;
   padding: 8px;
+  grid-gap: 1rem;
+}
+
+.Beshy-container .upper-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
 }
 
 
@@ -94,6 +102,13 @@ border-radius: 15px;
   border-bottom: 5px solid ;
   border-color: rgb(15, 154, 154);
   border-radius: 15px;
+}
+
+@media (max-width:400px) {
+.main-container .title-container .main-container canvas{
+  width: 1600px;
+  height: 100px;
+}
 }
 
 
